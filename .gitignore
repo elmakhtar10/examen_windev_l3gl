@@ -1,0 +1,31 @@
+# --- Répertoires de compilation et de travail ---
+*_WEB/
+*.cpl/
+*.wdp/
+/Compile/
+/Exe/
+
+# --- Fichiers de données locaux (HFSQL Classic) ---
+# On ne versionne pas les données de test locales
+*.fic
+*.ndx
+*.mmo
+*.ftx
+
+# --- Fichiers système et utilisateur WinDev ---
+*.env
+*.user
+*.history
+*.lock
+*.tmp
+*.manifest
+*.pjt
+
+# --- Fichiers de sauvegarde automatique ---
+*.bkp
+*.sav
+*.bak
+
+# --- Divers ---
+Thumbs.db
+.DS_Store

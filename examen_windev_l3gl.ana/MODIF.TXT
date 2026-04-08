@@ -1,0 +1,12 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Utilisateur		NFI		nouveau fichier
+Patient		NFI		nouveau fichier
+RendezVous		NFI		nouveau fichier
+Consultation		NFI		nouveau fichier
+Facture		NFI		nouveau fichier
+Contrainte_Utilisateur_Consultation		NWL	Utilisateur (IDUtilisateur) et Consultation (IDMedecin)	Nouvelle liaison entre les fichiers Utilisateur (IDUtilisateur) et Consultation (IDMedecin)
+Contrainte_Patient_RendezVous		NWL	Patient (IDPatient) et RendezVous (IDPatient)	Nouvelle liaison entre les fichiers Patient (IDPatient) et RendezVous (IDPatient)
+Contrainte_Patient_Consultation		NWL	Patient (IDPatient) et Consultation (IDPatient)	Nouvelle liaison entre les fichiers Patient (IDPatient) et Consultation (IDPatient)
+Contrainte_Consultation_Facture		NWL	Consultation (IDConsultation) et Facture (IDConsultation)	Nouvelle liaison entre les fichiers Consultation (IDConsultation) et Facture (IDConsultation)
+Contrainte_Utilisateur_RendezVous		NWL	Utilisateur (IDUtilisateur) et RendezVous (IDMedecin)	Nouvelle liaison entre les fichiers Utilisateur (IDUtilisateur) et RendezVous (IDMedecin)
+Contrainte_RendezVous_Consultation		NWL	RendezVous (IDRendezVous) et Consultation (IDRendezVous)	Nouvelle liaison entre les fichiers RendezVous (IDRendezVous) et Consultation (IDRendezVous)
