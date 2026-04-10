@@ -1,31 +1,33 @@
+# --- À CONSERVER ABSOLUMENT (Ne pas ignorer) ---
+!*.wbp
+!*.wdp
+!*.wwn
+!*.wdr
+!*.ana
+!*.wde
+
 # --- Répertoires de compilation et de travail ---
 *_WEB/
 *.cpl/
-*.wdp/
 /Compile/
 /Exe/
 
-# --- Fichiers de données locaux (HFSQL Classic) ---
-# On ne versionne pas les données de test locales
+# --- Fichiers de données locaux ---
 *.fic
 *.ndx
 *.mmo
 *.ftx
 
-# --- Fichiers système et utilisateur WinDev ---
+# --- Fichiers utilisateur (Spécifiques à chaque PC) ---
 *.env
 *.user
 *.history
 *.lock
 *.tmp
 *.manifest
-*.pjt
+# *.pjt  
 
-# --- Fichiers de sauvegarde automatique ---
+# --- Sauvegardes ---
 *.bkp
 *.sav
 *.bak
-
-# --- Divers ---
-Thumbs.db
-.DS_Store
